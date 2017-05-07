@@ -1,7 +1,8 @@
 #MineCraft Hue
+
 ####control Philips Hue bulbs from within minecraft.
 
-First you will need NodeJs installed: (version 6 or 7)[https://nodejs.org/en/]
+First you will need NodeJs installed: [version 6 or 7](https://nodejs.org/en/)
 Then you need to get the zip project from (here)[https://github.com/audstanley/minecraftHue]
 Click the green "Clone or Download" button, and download zip.
 
@@ -17,9 +18,11 @@ Now, run the mineCraftHueSetup file.
 You will only need to run this once if you follow the instructions and get a "Status: SUCCESS" after completion.
 
 ###You are ready to run the server:
+
 You may run the "Start MineCraft" file, and you can now control lights in your house inside minecraft.
 
 ####tips:
+
 you can simply:
 /say turnOn 1
 ...and that will turn on the first Hue bulb in your house.
@@ -33,6 +36,7 @@ You should see your lights flicking in the house.
 *CONGRATULATIONS!!*
 
 ##Optional:
+
 If you want to get push notifications every time someone logs onto your minecraft server,
 setup and account at (pushover)[https://pushover.net/]
 after creating a pushover account, you will see "You user Key" with a bunch of random looking letters and numbers.
