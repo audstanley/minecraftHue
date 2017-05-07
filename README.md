@@ -27,7 +27,7 @@ You will only need to run this **once** if you follow the instructions and get a
 
 ### You are ready to run the server:
 
-You need to run the "Start MineCraft" filein order to control lights in your house inside minecraft.
+You need to run the "Start MineCraft" file in order to control lights in your house inside minecraft.
 
 #### NOW from within Minecraft:
 
