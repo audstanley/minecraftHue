@@ -9,7 +9,9 @@ Then you need to get the zip project from [here](https://github.com/audstanley/m
 
 Click the green "Clone or Download" button, and download zip.
 
-Then drag the folder inside the zip to your desktop.
+Then drag the folder inside the zip (*minecraftHue-master folder*) to your desktop. You should open the folder,
+and see the app.js, appHue.js, README.md and other file inside.
+
 Now, download the [minecraft server.jar](https://minecraft.net/en-us/download/server)
 
 Once you have the minecraft server.jar file, drop it into the minecraftHue-master folder.
