@@ -27,9 +27,11 @@ You will only need to run this **once** if you follow the instructions and get a
 
 ### You are ready to run the server:
 
-You may run the "Start MineCraft" file, and you can now control lights in your house inside minecraft.
+You need to run the "Start MineCraft" filein order to control lights in your house inside minecraft.
 
-#### Tips from within minecraft:
+#### NOW from within Minecraft:
+
+Connect to your Local running server by going to **Multiplayer**, Add Server, type: **localhost**, and connect.
 
 you can simply type:
 **/say turnOn 1**
