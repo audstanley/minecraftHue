@@ -65,19 +65,14 @@ Copy it, then open philipsHue.json in your mineCraftHue-master folder,
 
 and paste between quotation marks: "pushoverAPI": "HERE"
 
-
+```json
 {
-
     "username": "not here",
-
     "hueUser": "not here",
-
     "pushoverAPI": "HERE",
-
     "pushoverAPP": "not here"
-
 }
-
+```
 
 then on pushover.net, go to: "Your Applications (Create an Application/API Token)"
 You only need to give the application a name, something like: mineCraftHue.
@@ -86,19 +81,14 @@ open philipsHue.json in your mineCraftHue-master folder.
 
 paste the APP token inside the quotation marks: "pushoverAPP": "HERE"
 
-
+```json
 {
-
     "username": "not here",
-
     "hueUser": "not here",
-
     "pushoverAPI": "not here",
-
     "pushoverAPP": "HERE"
-
 }
-
+```
 
 Save the philipsHue.json file, then you should receive pushover notifications through the pushover application
 on Android or IOS everytime someone logs onto your server.  Restart the server: if you made changes to your philipsHue
