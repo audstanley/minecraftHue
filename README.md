@@ -1,13 +1,14 @@
-#MineCraft Hue
 
-####control Philips Hue bulbs from within minecraft.
+# MineCraft Hue
+
+#### Control Philips Hue bulbs from within minecraft.
 
 First you will need NodeJs installed: [version 6 or 7](https://nodejs.org/en/)
-Then you need to get the zip project from (here)[https://github.com/audstanley/minecraftHue]
+Then you need to get the zip project from [here](https://github.com/audstanley/minecraftHue)
 Click the green "Clone or Download" button, and download zip.
 
 Then drag the folder inside the zip to your desktop.
-Now, download the (minecraft server.jar)[https://minecraft.net/en-us/download/server]
+Now, download the [minecraft server.jar](https://minecraft.net/en-us/download/server)
 
 Once you have the minecraft server.jar file, drop it into the minecraftHue-master folder.
 Run the minecraft_server.#.##.#.jar file once.
@@ -17,11 +18,11 @@ Save and exit the eula.txt.
 Now, run the mineCraftHueSetup file. 
 You will only need to run this once if you follow the instructions and get a "Status: SUCCESS" after completion.
 
-###You are ready to run the server:
+### You are ready to run the server:
 
 You may run the "Start MineCraft" file, and you can now control lights in your house inside minecraft.
 
-####tips:
+#### Tips:
 
 you can simply:
 /say turnOn 1
@@ -35,10 +36,10 @@ put pressure plates next to each block, then walk over them.
 You should see your lights flicking in the house.
 *CONGRATULATIONS!!*
 
-##Optional:
+## Optional (Last Step):
 
 If you want to get push notifications every time someone logs onto your minecraft server,
-setup and account at (pushover)[https://pushover.net/]
+setup and account at [pushover](https://pushover.net/)
 after creating a pushover account, you will see "You user Key" with a bunch of random looking letters and numbers.
 Copy it, then open philipsHue.json in your mineCraftHue-master folder, and paste between 
 quotation marks: "pushoverAPI": "HERE"
@@ -55,6 +56,7 @@ You only need to give the application a name, something like: mineCraftHue.
 Copy the api(application) token (also more random looking letters and numbers), 
 open philipsHue.json in your mineCraftHue-master folder.
 paste the APP token inside the quotation marks: "pushoverAPP": "HERE"
+
 {
     "username": "not here",
     "hueUser": "not here",
@@ -62,4 +64,6 @@ paste the APP token inside the quotation marks: "pushoverAPP": "HERE"
     "pushoverAPP": "HERE"
 }
 
-then you 
+Save the philipsHue.json file, then you should receive pushover notifications through the pushover application
+on Android or IOS everytime someone logs onto your server.  Restart the server: if you made changes to your philipsHue
+file while you were running the server. Otherwise, just start the server.
