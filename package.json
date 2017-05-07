@@ -1,0 +1,18 @@
+{
+  "name": "minecraft-home-automation",
+  "version": "1.0.0",
+  "description": "Control your home in minecraft",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Richard Stanley",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^1.6.3",
+    "node-hue-api": "^2.4.2",
+    "prompt": "^1.0.0",
+    "pushover-notifications": "^0.2.4",
+    "request": "^2.81.0"
+  }
+}
