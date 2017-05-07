@@ -61,13 +61,21 @@ You should see your lights flicking on and off in the house.
 If you want to get push notifications every time someone logs onto your minecraft server,
 setup and account at [pushover](https://pushover.net/)
 after creating a pushover account, you will see "You user Key" with a bunch of random looking letters and numbers.
-Copy it, then open philipsHue.json in your mineCraftHue-master folder, and paste between 
-quotation marks: "pushoverAPI": "HERE"
+Copy it, then open philipsHue.json in your mineCraftHue-master folder, 
+
+and paste between quotation marks: "pushoverAPI": "HERE"
+
+
 {
+
     "username": "not here",
+
     "hueUser": "not here",
+
     "pushoverAPI": "HERE",
+
     "pushoverAPP": "not here"
+
 }
 
 
@@ -75,14 +83,22 @@ then on pushover.net, go to: "Your Applications (Create an Application/API Token
 You only need to give the application a name, something like: mineCraftHue.
 Copy the api(application) token (also more random looking letters and numbers), 
 open philipsHue.json in your mineCraftHue-master folder.
+
 paste the APP token inside the quotation marks: "pushoverAPP": "HERE"
 
+
 {
+
     "username": "not here",
+
     "hueUser": "not here",
+
     "pushoverAPI": "not here",
+
     "pushoverAPP": "HERE"
+
 }
+
 
 Save the philipsHue.json file, then you should receive pushover notifications through the pushover application
 on Android or IOS everytime someone logs onto your server.  Restart the server: if you made changes to your philipsHue
