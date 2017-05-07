@@ -29,26 +29,28 @@ You will only need to run this once if you follow the instructions and get a "St
 
 You may run the "Start MineCraft" file, and you can now control lights in your house inside minecraft.
 
-#### Tips:
+#### Tips from within minecraft:
 
-you can simply:
-/say turnOn 1
+you can simply type:
+**/say turnOn 1**
 
 ...and that will turn on the first Hue bulb in your house.
 
-or if you want to get creative, turn on creative mode in minecraft: /gamemode 1
+or if you want to get creative, turn on creative mode in minecraft: **/gamemode 1**
 
-then type: command_block
+then type **/** first, then backspace (so there is no '/' in the message box), then type: 
 
-you will be given a command block.  Place the command block, right click on the command block,
+**command_block**
 
-type /say turnOn 1.
+The server will give you a command block.  Place the command block, right click on the command block,
 
-place another command block, and right click and put in: /say turnOff 1.
+type **/say turnOn 1.** into the command block.
+
+place another command block, and right click and put in: **/say turnOff 1.**
 
 put pressure plates next to each block, then walk over them.
 
-You should see your lights flicking in the house.
+You should see your lights flicking on and off in the house.
 
 **CONGRATULATIONS!!**
 
