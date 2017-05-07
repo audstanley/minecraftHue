@@ -17,7 +17,7 @@ Run the minecraft_server.#.##.#.jar file one time.
 
 Open the eula.txt file, and set:
 
-eula=false to eula=true.
+eula=false to: eula=**true**
 
 Save and exit the eula.txt.
 
