@@ -93,18 +93,17 @@ else {
 				else console.log(str);
 			   
 			});
-		}).done();
-	}
+			mc.stderr.on('data', (data) => {
+			  console.log(`stderr: ${data}`);
+			});
 
-	mc.stderr.on('data', (data) => {
-	  console.log(`stderr: ${data}`);
-	});
-
-	mc.on('close', (code) => {
-	  console.log(`child process exited with code ${code}`);
-	});
-
-})
+			mc.on('close', (code) => {
+			  console.log(`child process exited with code ${code}`);
+			});
+			
+		}); //end of file read
+	}).done(); //end of hue promise
+} //end of else
 
 
 
