@@ -33,7 +33,7 @@ You need to run the "Start MineCraft" file in order to control lights in your ho
 
 Connect to your Local running server by going to **Multiplayer**, Add Server, type: **localhost**, and connect.
 
-you can simply type:
+Once you log into your server you can simply type:
 **/say turnOn 1**
 
 ...and that will turn on the first Hue bulb in your house.
