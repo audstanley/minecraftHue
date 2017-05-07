@@ -17,7 +17,7 @@ hue.nupnpSearch().then((bridge)=> {
 	console.log("Hue bridge found at: " + hueIp);
 	prompt.start();
 	prompt.get(['username'], function (err, result) {
-		let c = 5; 
+		let c = 20; 
 		console.log("Please go push the button on your hue bridge NOW.  You have 20 seconds...");
 		let counter = setInterval(()=> {
 			console.log(c);
@@ -54,7 +54,7 @@ hue.nupnpSearch().then((bridge)=> {
 						}
 					}
 			})
-		}, 6000)
+		}, 22000)
 		
 		//console.log('Command-line input received:');
 		//console.log('  username: ' + result.username);
