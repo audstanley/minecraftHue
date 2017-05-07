@@ -21,9 +21,9 @@ eula=false to eula=true.
 
 Save and exit the eula.txt.
 
-Now, run the mineCraftHueSetup file. 
+Now, run the **mineCraftHueSetup** file from within the *mineCraftHue-master* folder. 
 
-You will only need to run this once if you follow the instructions and get a "Status: SUCCESS" after completion.
+You will only need to run this **once** if you follow the instructions and get a **"Status: SUCCESS"** after completion.
 
 ### You are ready to run the server:
 
