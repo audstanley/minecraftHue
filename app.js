@@ -7,7 +7,7 @@ const child = require('child_process').spawn;
 const userInfo = require('./philipsHue.json');
 let mcFileRe = (e) => { return /minecraft_server/.test(e); }
 let hueUser = userInfo.hueUser;
-//console.log(userInfo);
+
 if(userInfo === undefined) {
 	console.log("You need to run the mineCraftHueSetup.bat FIRST.");
 }
@@ -22,15 +22,12 @@ else {
 			let p = new push({
 				user: userInfo.pushoverAPI,		// user API key
 				token: userInfo.pushoverAPP,	// token/APP API key
-			})
+			});
 
 			let userName = userInfo.username;
 			let uNameRegex = RegExp(userName);
 			let wholeThing = /\[\d{2}:\d{2}:\d{2}\] \[Server thread\/INFO\]: [\[<](@|\w+)[\]>] (\w+)\s?(\d{1,})?/;
 			let joined = /(\w+) joined the game/;
-			let hours = /\[(\d{2})/;
-			let minutes = /:(\d{2})/;
-			let seconds = /:(\d{2})]/;
 			
 			setTimeout(function() {		
 				mc.stdin.write( "/say Welcome To " + userName + "'s server\r\n" );
