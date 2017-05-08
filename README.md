@@ -13,21 +13,18 @@ and see the app.js, appHue.js, README.md and **NO other folders** inside.
 Now, download the [minecraft server.jar](https://minecraft.net/en-us/download/server)
 
 Once you have the minecraft server.jar file, drop it into the minecraftHue-master folder.
-Run the minecraft_server.#.##.#.jar file one time.
 
-Open the eula.txt file, and set:
-
-eula=false to: eula=**true**
-
-Save and exit the eula.txt.
-
-Now, run the **mineCraftHueSetup** file from within the *mineCraftHue-master* folder. 
+Now, run the **mineCraftHueSetup** file from within the *mineCraftHue-master* folder.
+The mineCraftHueSetup script will first install all then npm packages that are needed.
+This could take about a minute.  Then a new windows will launch for you to set up philips Hue
+for minecraft.  Follow the instructions: enter your minecraft username, and then you need to 
+run and hit the button on your hue bridge.
 
 You will only need to run this **once** if you follow the instructions and get a **"Status: SUCCESS"** after completion.
 
-### You are ready to run the server:
+### The Server will launch automatically after running mineCraftHueSetup:
 
-You need to run the "Start MineCraft" file in order to control lights in your house inside minecraft.
+Every time after that you just need to run the "Start MineCraft" file.
 
 #### NOW from within Minecraft:
 

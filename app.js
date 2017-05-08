@@ -2,6 +2,7 @@ const fetch = require('node-fetch');
 const hue = require("node-hue-api");
 const http = require('http');
 const request = require('request');
+const LineByLineReader = require('line-by-line');
 const fs = require('fs');
 const child = require('child_process').spawn;
 const userInfo = require('./philipsHue.json');
@@ -29,13 +30,6 @@ else {
 			let wholeThing = /\[\d{2}:\d{2}:\d{2}\] \[Server thread\/INFO\]: [\[<](@|\w+)[\]>] (\w+)\s?(\d{1,})?/;
 			let joined = /(\w+) joined the game/;
 			
-			setTimeout(function() {		
-				mc.stdin.write( "/say Welcome To " + userName + "'s server\r\n" );
-				mc.stdin.write("/op " + userName + "\r\n");
-				mc.stdin.write("/gamerule commandBlockOutput false\r\n");
-				console.log("trying to op...")
-				}, 20000);
-			
 			mc.stdout.on('data', (d) => {
 				let str = d.toString();
 				let wholeArray = wholeThing.exec(str);
@@ -43,6 +37,31 @@ else {
 				let rJoinedGame = /(\w+) joined the game/.exec(str);
 				let isJoinedGame = /(\w+) joined the game/.test(str);
 				
+				//The moment the map finishes generating:
+				if(/\[\d{2}:\d{2}:\d{2}\] \[Server thread\/INFO\]: Done/.test(str)) {
+					let lr = new LineByLineReader('server.properties');
+					let linedFile = "";
+					lr.on('error', function (err) {
+						console.log("There was a problem opening: server.properties");
+					});
+					lr.on('line', function (line) {
+						linedFile += line.replace(/enable-command-block=false/, "enable-command-block=true") + "\n";
+					});
+					setTimeout(()=> {
+						fs.writeFile('server.properties', linedFile), 
+							(err)=> { 
+							if(err) throw err;
+							else console.log("Successfully enabled the command block in server.properties.");
+							}
+					}, 3000);
+					
+					setTimeout(()=> {
+						mc.stdin.write( "/say Welcome To " + userName + "'s server\r\n" );
+						mc.stdin.write("/op " + userName + "\r\n");
+						mc.stdin.write("/gamerule commandBlockOutput false\r\n");
+						console.log("trying to op...");
+					}, 6000);	
+				}
 				// once we have captured the data (d), and parsed the buffer to a string.
 				// we run a regular expression on the string to capture WHO, prefix, and number
 				//wholeThing[0] = "a username";

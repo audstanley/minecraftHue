@@ -2,6 +2,7 @@ const prompt = require("prompt");
 const hue = require("node-hue-api");
 const fs = require("fs");
 const request = require("request");
+
 console.log("\n--------------------------------------------------------");
 console.log("MineCraft Hue Setup");
 console.log("--------------------------------------------------------");
@@ -11,6 +12,12 @@ console.log("to your hue bridge and hit the button on the bridge");
 console.log("You will have 20 seconds to hit the button on the bridge.");
 console.log("Enter the username that you use for minecraft.\n")
 prompt.message = "MineCraft";
+
+fs.writeFile('eula.txt', "eula=true", 
+	(err)=> { 
+	if(err) throw err;
+	else console.log("Successfully wrote to philipsHue.json.")
+	});
 
 hue.nupnpSearch().then((bridge)=> {
 	let hueIp = bridge[0].ipaddress;
@@ -49,7 +56,11 @@ hue.nupnpSearch().then((bridge)=> {
 								null, 4), 
 							(err)=> { 
 							if(err) throw err;
-							else console.log("Successfully wrote to philipsHue.json.")
+							else {
+								console.log("Successfully wrote to philipsHue.json.");
+								console.log("Don't close this window.");
+								console.log("The windows will launch the server in a few seconds AUTOMATICALLY.");
+							}
 							});
 						}
 					}
