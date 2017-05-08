@@ -1,1 +1,1 @@
-npm install & start node appHue.js & TIMEOUT 60 & start node app.js & TIMEOUT 20
+npm install & cmd /c "node appHue.js & TIMEOUT 60" & cmd /c "node app.js & TIMEOUT 20"
