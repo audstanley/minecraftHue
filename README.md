@@ -17,8 +17,10 @@ Now, download the [minecraft server.jar](https://minecraft.net/en-us/download/se
 Drop the minecraft server.jar file into the minecraftHue-master folder.
 
 Now, run the **mineCraftHueSetup** file from within the *mineCraftHue-master* folder.
-The mineCraftHueSetup script will first install all the npm packages that are needed.
-This could take about a minute.  Then a new windows will launch for you to set up philips Hue
+The mineCraftHueSetup script will first run an install.
+This will take about a minute.  Just wait patiently.
+
+Then a new windows will launch for you to set up philips Hue
 for minecraft.  Follow the instructions: enter your minecraft username, and then you need to 
 run and hit the button on your hue bridge.
 
@@ -26,7 +28,10 @@ You will only need to run this **once** if you follow the instructions and get a
 
 ### The Server will launch automatically after running mineCraftHueSetup:
 
-Once you see: [17:13:07] [Server thread/INFO]: Game rule commandBlockOutput has been updated to false,
+Once you see: 
+
+[17:13:07] [Server thread/INFO]: Game rule commandBlockOutput has been updated to false,
+
 Close the server console, and then launch the **"Start MineCraft"** file.
 
 From now on, you just need to run the **"Start MineCraft"** file. There is need to re-run the minecraft hue bridge setup,
