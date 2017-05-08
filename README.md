@@ -10,7 +10,7 @@ Then you will need NodeJs installed: [version 6 or 7](https://nodejs.org/en/).
 Then you need to get the zip project from [here](https://github.com/audstanley/minecraftHue/archive/master.zip)
 
 Then drag the folder inside the zip (*minecraftHue-master folder*) to your desktop. You should open the folder,
-and see the app.js, appHue.js, README.md and **NO other folders** inside.
+and see the app.js, appHue.js, README.md and **NO OTHER FOLDERS INSIDE**.
 
 Now, download the [minecraft server.jar](https://minecraft.net/en-us/download/server)
 
