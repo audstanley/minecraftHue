@@ -118,7 +118,8 @@ else {
 			});
 			
 		}); //end of file read
-	}).done(); //end of hue promise
+	}).catch((e) => console.log("\n\nERROR: could not connect to the phillips hue bridge. " +
+					"\nIs there a philips hue bridge on your network?\nAnd are you connected to the same network?")).done(); //end of hue promise
 } //end of else
 
 

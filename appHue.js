@@ -16,7 +16,7 @@ prompt.message = "MineCraft";
 fs.writeFile('eula.txt', "eula=true", 
 	(err)=> { 
 	if(err) throw err;
-	else console.log("Successfully wrote to philipsHue.json.")
+	else console.log("\nSuccessfully set eula=true in eula.txt\n")
 	});
 
 hue.nupnpSearch().then((bridge)=> {
@@ -70,4 +70,5 @@ hue.nupnpSearch().then((bridge)=> {
 		//console.log('Command-line input received:');
 		//console.log('  username: ' + result.username);
 	  });
-  }).done();
+  }).catch((e) => console.log("\n\nERROR: could not connect to the phillips hue bridge. " +
+					"\nIs there a philips hue bridge on your network?\nAnd are you connected to the same network?")).done();
