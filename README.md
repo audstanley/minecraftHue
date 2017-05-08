@@ -17,7 +17,7 @@ Now, download the [minecraft server.jar](https://minecraft.net/en-us/download/se
 Drop the minecraft server.jar file into the minecraftHue-master folder.
 
 Now, run the **mineCraftHueSetup** file from within the *mineCraftHue-master* folder.
-The mineCraftHueSetup script will first install all then npm packages that are needed.
+The mineCraftHueSetup script will first install all the npm packages that are needed.
 This could take about a minute.  Then a new windows will launch for you to set up philips Hue
 for minecraft.  Follow the instructions: enter your minecraft username, and then you need to 
 run and hit the button on your hue bridge.
