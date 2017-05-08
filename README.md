@@ -20,7 +20,7 @@ and see the app.js, appHue.js, README.md and **NO OTHER FOLDERS INSIDE**.
 The mineCraftHueSetup script will first run an install.
 This will take about a minute.  Just wait patiently.
 
- 8.Then a new windows will launch for you to set up philips Hue
+ 8. Then a new windows will launch for you to set up philips Hue
 for minecraft.  Follow the instructions: enter your minecraft username, and then you need to 
 run and hit the button on your hue bridge.
 
