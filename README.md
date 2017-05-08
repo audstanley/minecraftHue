@@ -35,7 +35,7 @@ Once you see:
  * Close the server console, and then launch the **"Start MineCraft"** file.
 
 From now on, you just need to run the **"Start MineCraft"** file. There is need to re-run the minecraft hue bridge setup,
-unless you are starting a new server from scratch.
+unless you are starting a new server from scratch. **LEAVE THE CONSOLE WINDOW OPEN**
 
 #### NOW from within Minecraft:
 
