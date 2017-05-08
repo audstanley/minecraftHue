@@ -39,7 +39,7 @@ unless you are starting a new server from scratch.
 
 #### NOW from within Minecraft:
 
-Connect to your Local running server by going to **Multiplayer**, Add Server, type: **localhost**, and connect.
+Connect to your Local running server by going to **Multiplayer**, Add Server, give your server a name, type: **localhost** under **"Server Address"**, add, and connect.
 
 Once you log into your server you can simply type:
 **/say turnOn 1**
