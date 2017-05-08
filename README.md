@@ -69,7 +69,7 @@ You should see your lights flicking on and off in the house.
 or stop by at my blog: [audstanley.com](http://www.audstanley.com)
 
 
-## Optional (Last Step):
+## Optional (Last Step if you want to be notified of someone logging onto your server):
 
 If you want to get push notifications every time someone logs onto your minecraft server,
 setup and account at [pushover](https://pushover.net/)
