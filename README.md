@@ -3,7 +3,9 @@
 
 #### Control Philips Hue bulbs from within minecraft.
 
-First you will need NodeJs installed: [version 6 or 7](https://nodejs.org/en/).
+First, download the [minecraft server.jar](https://minecraft.net/en-us/download/server)
+
+Then you will need NodeJs installed: [version 6 or 7](https://nodejs.org/en/).
 
 Then you need to get the zip project from [here](https://github.com/audstanley/minecraftHue/archive/master.zip)
 
@@ -12,7 +14,7 @@ and see the app.js, appHue.js, README.md and **NO other folders** inside.
 
 Now, download the [minecraft server.jar](https://minecraft.net/en-us/download/server)
 
-Once you have the minecraft server.jar file, drop it into the minecraftHue-master folder.
+Drop the minecraft server.jar file into the minecraftHue-master folder.
 
 Now, run the **mineCraftHueSetup** file from within the *mineCraftHue-master* folder.
 The mineCraftHueSetup script will first install all then npm packages that are needed.
@@ -24,7 +26,11 @@ You will only need to run this **once** if you follow the instructions and get a
 
 ### The Server will launch automatically after running mineCraftHueSetup:
 
-Every time after that you just need to run the "Start MineCraft" file.
+Once you see: [17:13:07] [Server thread/INFO]: Game rule commandBlockOutput has been updated to false,
+Close the server console, and then launch the **"Start MineCraft"** file.
+
+From now on, you just need to run the **"Start MineCraft"** file. There is need to re-run the minecraft hue bridge setup,
+unless you are starting a new server from scratch.
 
 #### NOW from within Minecraft:
 
