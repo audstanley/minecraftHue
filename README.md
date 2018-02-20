@@ -69,6 +69,10 @@ or stop by at my blog: [audstanley.com](http://www.audstanley.com)
 **Also,**shout out to OMGCraft.  Thanks for making a video:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XVZKscrWbYA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=XVZKscrWbYA
+" target="_blank"><img src="http://img.youtube.com/vi/XVZKscrWbYA/0.jpg" 
+alt="OMGCraft" width="240" height="180" border="10" /></a>
+
 
 ## Optional (Last Step if you want to be notified of someone logging onto your server):
 
