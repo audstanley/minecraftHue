@@ -67,7 +67,6 @@ You should see your lights flicking on and off in the house.
 or stop by at my blog: [audstanley.com](http://www.audstanley.com)
 
 **Also,**shout out to OMGCraft.  Thanks for making a video:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XVZKscrWbYA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=XVZKscrWbYA
 " target="_blank"><img src="http://img.youtube.com/vi/XVZKscrWbYA/0.jpg" 
