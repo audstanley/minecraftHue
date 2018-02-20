@@ -12,19 +12,17 @@
  4. Then drag the folder inside the zip (*minecraftHue-master folder*) to your desktop. You should open the folder,
 and see the app.js, appHue.js, README.md and **NO OTHER FOLDERS INSIDE**.
 
- 5. Now, download the [minecraft server.jar](https://minecraft.net/en-us/download/server)
+ 5. Drop the minecraft server.jar file into the minecraftHue-master folder.
 
- 6. Drop the minecraft server.jar file into the minecraftHue-master folder.
-
- 7. Now, run the **mineCraftHueSetup** file from within the *mineCraftHue-master* folder.
+ 6. Now, run the **mineCraftHueSetup** file from within the *mineCraftHue-master* folder.
 The mineCraftHueSetup script will first run an install.
 This will take about a minute.  Just wait patiently.
 
- 8. Then a new windows will launch for you to set up philips Hue
+ 7. Then a new windows will launch for you to set up philips Hue
 for minecraft.  Follow the instructions: enter your minecraft username, and then you need to 
 run and hit the button on your hue bridge.
 
- 9. You will only need to run this **once** if you follow the instructions and get a **"Status: SUCCESS"** after completion.
+ 8. You will only need to run this **once** if you follow the instructions and get a **"Status: SUCCESS"** after completion.
 
 ### The Server will launch automatically after running mineCraftHueSetup:
 
@@ -67,6 +65,9 @@ You should see your lights flicking on and off in the house.
 <a href='https://ko-fi.com/A687KA8' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi4.png?v=f' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 or stop by at my blog: [audstanley.com](http://www.audstanley.com)
+
+**Also,**shout out to OMGCraft.  Thanks for making a video:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XVZKscrWbYA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 ## Optional (Last Step if you want to be notified of someone logging onto your server):
