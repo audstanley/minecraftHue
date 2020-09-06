@@ -17,7 +17,7 @@ else {
 		let hueIp = bridge[0].ipaddress;
 		console.log("Hue Bridge Found at: " + hueIp + "\n");
 		fs.readdir("./", (e, f) => {
-			const mc = child('java', ['-Xmx1024M', '-Xms1024M', '-jar', f.filter(mcFileRe)[0], 'nogui']);
+			const mc = child('java', ['-Xmx1024M', '-Xms1024M', '-jar', 'server.jar', 'nogui']);
 			const push = require('pushover-notifications');
 			mc.stdin.setEncoding('utf-8');
 			let p = new push({
