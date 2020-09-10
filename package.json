@@ -10,7 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "line-by-line": "^0.1.5",
-    "node-fetch": "^1.6.3",
+    "node-fetch": "^2.6.1",
     "node-hue-api": "^2.4.2",
     "prompt": "^1.0.0",
     "pushover-notifications": "^0.2.4",
